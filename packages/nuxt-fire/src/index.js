@@ -1,5 +1,5 @@
 import path from 'path'
-import { isEmpty } from 'lodash'
+import { isEmpty } from 'lodash-es'
 
 export default function nuxtFire(moduleOptions) {
   const options = Object.assign({}, this.options.fire, moduleOptions)
